@@ -1,0 +1,4 @@
+#Installing on Fedora/CentOS/Red Hat Enterprise Linux
+sudo yum install httpd
+sudo systemctl enable httpd
+sudo systemctl start httpd
