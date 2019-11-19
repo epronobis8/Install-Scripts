@@ -1,0 +1,4 @@
+#Install Java 8 from Internet.
+java -jar jenkins.war --httpPort-8080
+#you can specify the port to install jenkins or you can change --httpsPort-443
+#cd /Users/Shared/Jenkins/Home/secret/initialAdminPassword
