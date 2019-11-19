@@ -1,0 +1,4 @@
+#pulls from a jenkins repo.
+docker pull jenkins
+#runs jenkins on port 9090 & create the jenkins directory on local PC
+docker run -p 9090:8080 -p 50000:50000 -v /Users/erin/Desktop:/var/jenkins_home jenkins
